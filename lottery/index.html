@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>幸运大抽奖</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="plugins/jquery-3.1.1.min.js"></script>
+	<script src="plugins/ThreeCanvas.js"></script>
+	<script src="js/Snow.js"></script>
+	<script src="js/hongbao.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body class="n-wrap">
+	<div class="prize-stage">
+		<!-- <video src="images/bg.mp4" id="video" width="2560" height="1024" autoplay loop>
+		</video> -->
+		<audio src="images/a-choujiang.mp3" id="chou" loop preload></audio>
+		<audio src="images/a-zhongjiang.wav" id="zhong" preload></audio>
+		<audio src="images/a-sun.mp3" id="sun" preload></audio>
+		<audio src="images/a-gu.mp3" id="gu" preload loop></audio>
+		<div class="prize-list">
+			<div class="li p1">
+				<div class="front">
+					<div class="front-wrap">
+						<div class="up">
+							<img src="images/prize-1-up.png" alt="">
+						</div>
+						<div class="down">
+							<img src="images/prize-down.png" alt="">
+						</div>
+					</div>
+					<div class="prize-name">iPhone7 128G</div>
+					<div class="prize-num">
+						<a class="draw-num"><span>（</span><span class="num">0</span>名<span>）</span></a>
+					</div>
+				</div>
+				<div class="front-f">
+					<div class="avatar">
+						<img src="" alt="">
+					</div>
+					<div class="name"></div>
+					<div class="c-department"></div>
+				</div>
+				<div class="back"></div>
+				<div class="luck-btn"></div>
+			</div>
+			<div class="li p2">
+				<div class="front">
+					<div class="front-wrap">
+						<div class="up">
+							<img src="images/prize-2-up.png" alt="">
+						</div>
+						<div class="down">
+							<img src="images/prize-down.png" alt="">
+						</div>
+					</div>
+					<div class="prize-name">iPad mini4 32G</div>
+					<div class="prize-num">
+						<a class="draw-num"><span>（</span><span class="num">0</span>名<span>）</span></a>
+					</div>
+				</div>
+				<div class="front-f">
+					<div class="avatar">
+						<img src="" alt="">
+					</div>
+					<div class="name"></div>
+					<div class="c-department"></div>
+				</div>
+				<div class="back"></div>
+				<div class="luck-btn"></div>
+			</div>
+			<div class="li p3">
+				<div class="front">
+					<div class="front-wrap">
+						<div class="up">
+							<img src="images/prize-3-up.png" alt="">
+						</div>
+						<div class="down">
+							<img src="images/prize-down.png" alt="">
+						</div>
+					</div>
+					<div class="prize-name">DAHON折叠自行车</div>
+					<div class="prize-num">
+						<a class="draw-num"><span>（</span><span class="num">0</span>名<span>）</span></a>
+					</div>
+				</div>
+				<div class="front-f">
+					<div class="avatar">
+						<img src="" alt="">
+					</div>
+					<div class="name"></div>
+					<div class="c-department"></div>
+				</div>
+				<div class="back"></div>
+				<div class="luck-btn"></div>
+			</div>
+			<div class="li p4">
+				<div class="front">
+					<div class="front-wrap">
+						<div class="up">
+							<img src="images/prize-4-up.png" alt="">
+						</div>
+						<div class="down">
+							<img src="images/prize-down.png" alt="">
+						</div>
+					</div>
+					<div class="prize-name">Kindle</div>
+					<div class="prize-num">
+						<a class="draw-num"><span>（</span><span class="num">0</span>名<span>）</span></a>
+					</div>
+				</div>
+				<div class="front-f">
+					<div class="avatar">
+						<img src="" alt="">
+					</div>
+					<div class="name"></div>
+					<div class="c-department"></div>
+				</div>
+				<div class="back"></div>
+				<div class="luck-btn"></div>
+			</div>
+			<div class="li p5">
+				<div class="front">
+					<div class="front-wrap">
+						<div class="up">
+							<img src="images/prize-5-up.png" alt="">
+						</div>
+						<div class="down">
+							<img src="images/prize-down.png" alt="">
+						</div>
+					</div>
+					<div class="prize-name">泰然城E卡</div>
+					<div class="prize-num">
+						<a class="draw-num">5000元</a>
+					</div>
+				</div>
+				<div class="front-f">
+					<div class="avatar">
+						<img src="" alt="">
+					</div>
+					<div class="name"></div>
+					<div class="c-department"></div>
+				</div>
+				<div class="back"></div>
+				<div class="luck-btn"></div>
+			</div>
+			<div class="light light1"></div>
+			<div class="light-wrap">
+				<div class="light light2"></div>
+				<div class="light light3"></div>
+				<div class="light light4"></div>
+			</div>
+			<div class="mask prize-mask"></div>
+			<div class="mask luck-mask"></div>
+			<div class="mask stage-mask"></div>
+			<div class="mask stop-mask"></div>
+			<div class="mask sun-mask"></div>
+		</div>
+		<div class="awarder-container">
+			<div class="move-container"></div>
+		</div>
+	</div>
+	<div class="preloadImg1"></div>
+	<div class="preloadImg2"></div>
+</body>
+</html>
